@@ -1,0 +1,10 @@
+.env
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.vscode/.ropeproject/
+odoo-data/
+postgres-data/
+*.zip
+!odoo-sales-management-customization.zip

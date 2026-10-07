@@ -1,0 +1,20 @@
+{
+    "name": "Sales Management Customization",
+    "summary": "Configurable quotation approvals and sales workflow controls",
+    "version": "18.0.1.0.0",
+    "category": "Sales",
+    "author": "OpenAI",
+    "license": "LGPL-3",
+    "depends": ["sale_management", "mail"],
+    "data": [
+        "security/sales_workflow_groups.xml",
+        "security/ir.model.access.csv",
+        "data/ir_config_parameter_data.xml",
+        "views/sale_order_views.xml",
+        "views/res_config_settings_views.xml",
+        "wizard/sale_order_reject_wizard_views.xml",
+    ],
+    "demo": [],
+    "application": False,
+    "installable": True,
+}

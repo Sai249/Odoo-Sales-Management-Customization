@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+    <record id="ir_config_parameter_approval_threshold" model="ir.config_parameter">
+        <field name="key">sales_management_customization.approval_threshold</field>
+        <field name="value">10000.0</field>
+    </record>
+    <record id="ir_config_parameter_director_approval_threshold" model="ir.config_parameter">
+        <field name="key">sales_management_customization.director_approval_threshold</field>
+        <field name="value">50000.0</field>
+    </record>
+</odoo>
